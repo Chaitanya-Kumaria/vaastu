@@ -93,44 +93,219 @@ TOP_OF_IMAGE_OPTIONS = DIRECTIONS_8
 # rather than whatever generic Vastu content it picked up in training.
 # --------------------------------------------------------------------------
 VASTU_KNOWLEDGE_BASE = """
-CORE PHILOSOPHY
-Vastu Shastra maps human activities to spatial/magnetic/solar alignment.
-Two foundations: the Vastu Purusha Mandala (energy grid of a space) and
-Panchatatva, the five elements (Water, Fire, Earth, Air, Space), each
-governing a direction. A compliant plan matches room function to the
-element of its zone.
+Here is an expanded, descriptive, and scholarly edition of your knowledge base, grounded directly in the four classic treatises (*Mayamata* Vols. I & II, Vibhuti Chakrabarti’s *Indian Architectural Theory*, and Sashikala Ananth’s *The Penguin Guide to Vaastu*).
 
-STANDARD 8-DIRECTION SYSTEM (45-degree slices)
-- North-East (Ishan) / Water: IDEAL - pooja room, underground water tanks,
-  open space. DEFECTS - toilets, kitchens, septic tanks, heavy stairs.
-- South-East (Agni) / Fire: IDEAL - kitchen, electrical panels, heaters.
-  DEFECTS - underground water tanks, main entrance.
-- South-West (Nairutya) / Earth: IDEAL - master bedroom, heavy storage,
-  cash lockers. DEFECTS - main entrance, underground water, toilets.
-- North-West (Vayavya) / Air: IDEAL - guest rooms, finished goods,
-  septic tanks. DEFECTS - master bedroom.
-- Center (Brahmasthan) / Space: IDEAL - open courtyard, living area.
-  DEFECTS - pillars, load-bearing walls, toilets.
+---
 
-16-ZONE MAHAVASTU FRAMEWORK (22.5-degree slices) - use for finer analysis
-- North-North-East (NNE): Health & Immunity. Ideal for medicines; defective
-  if a kitchen/fire element is present.
-- East-South-East (ESE): Analysis. Ideal for study; a bedroom here causes
-  anxiety.
-- South-South-West (SSW): Disposal. Best location for toilets/dustbins;
-  disastrous for financial lockers.
-- West-North-West (WNW): Detoxification. Ideal for washing machines.
-(Other 16-zone points follow the same logic as their nearest 8-direction
-parent unless the user's data lets you be more precise.)
+### 1. CORE PHILOSOPHY & THEORETICAL FOUNDATIONS
 
-REMEDIAL PRINCIPLE
-Prefer remedies WITHOUT demolition:
-- Color Therapy: paint/mat in the element's color to rebalance a zone
-  (e.g. red tones in South-East).
-- Metal Strips: copper/brass/steel strips to block negative flow, e.g.
-  around a misplaced toilet.
-- Objects & Mirrors: mirrors to "extend" a cut corner; heavy objects to
-  ground a zone.
+* **Ontological Distinction Between *Vastu* and *Vaastu***:
+  * ***Vastu*** refers to the unmanifest and manifest subtle life energy (*Jivatman* / *Praana*) residing in all matter, earth, and physical structures. 
+  * ***Vaastu*** denotes the physical site, spatial enclosure, or support (*Bhoomi* / *Prasada*) upon which this life energy is anchored and expressed.
+
+* **The Three Classical Principles of Design (*Trisutra*)**:
+  * ***Bhogadyam***: Functional utility, structural comfort, and spatial efficiency.
+  * ***Sukha Darsham***: Aesthetic visual balance, geometric proportion, and spatial beauty.
+  * ***Ramya***: The inner contentment, emotional resonance, and feeling of well-being that evokes a sympathetic vibration between the built form and the user.
+
+* **The *Vastu Purusha Mandala* (The Master Cosmic Grid)**:
+  * The *Vastu Purusha Mandala* is the core design grid representing the Cosmic Man (*Purusha*) pressed face-downward onto the consecrated ground by various divinities. 
+  * While 32 distinct grid layouts exist, residential planning primarily utilizes the **64-square (*Manduka*)** and **81-square (*Paramashayika*)** square grids.
+  * **Anthropomorphic Alignment**: The *Purusha* lies diagonally across the grid: the **head** rests in the North-East (*Ishana*), the **feet** meet in the South-West (*Nairutya/Pitri*), the **joints/limbs** lie in the South-East and North-West, and the **navel/heart** occupies the central Brahmasthana.
+
+* **Panchamahabhutas (The Five Primary Elements)**:
+  * Architecture is conceived as a microcosm balancing the five universal elements: **Water** (*Apah*), **Fire** (*Agni*), **Earth** (*Prithvi*), **Air** (*Vayu*), and **Space/Ether** (*Akasha*).
+
+* **System of Relative Proportion (*Pramana*) & *Ayadi* Calculations**:
+  * **Relative Proportioning**: Dimensions originate from human scale units—*Angula* (finger width ~1.9 cm), *Hasta* (cubit = 24 Angulas), and *Danda* (rod = 4 Hastas). The width (*W*) of a plinth is the fundamental module from which building height, length, wall thickness, and opening sizes are derived.
+  * **Ayadi Formulae (*Shadayadi*)**: Astrological mathematical checks calculated from the plinth area or perimeter to ensure spatial-temporal resonance between the householder's birth star (*Janma Nakshatra*) and the building. The six core checks include:
+    1. ***Aya*** (Income/Directional Propensity): Remainder of \\(\text{Area} / 8\\). Yields 8 directional types (*Dhwaja*, *Singha*, *Vrishabha*, *Gaja*, etc.); odd remainders are auspicious.
+    2. ***Vyaya*** (Expenditure/Debt): Remainder of \\((\text{Area} \times 3) / 8\\). *Aya* must always exceed *Vyaya* to ensure prosperity.
+    3. ***Nakshatra*** (Lunar Mansion of the House): Remainder of \\((\text{Area} \times 8) / 27\\).
+    4. ***Tithi*** (Lunar Date): Remainder of \\((\text{Area} \times 8) / 15\\).
+    5. ***Ayu*** (Vital Lifespan of Building): Remainder of \\((\text{Area} \times 8) / 120\\).
+    6. ***Yoni*** (Directional Energy Flow): Evaluates spatial orientation; odd remainders (1=East/Dhwaja, 3=South/Singha, 5=West/Vrishabha, 7=North/Gaja) are favorable.
+
+---
+
+### 2. ENHANCED 8-DIRECTIONAL COSMOLOGY & DIURNAL SUN CYCLE
+
+The 24-hour diurnal cycle of the sun establishes the spatial zoning of domestic functions across the eight cardinal directions:
+
+```
+                     NORTH-WEST (Vayavya)           NORTH (Soma/Kubera)           NORTH-EAST (Ishana)
+                     Air / Moon                    Water / Mercury               Water / Jupiter
+                     9 PM - 12 Midnight            12 Midnight - 3 AM            3 AM - 6 AM
+                     [Guest, Granary, Toilets]     [Treasury, Medicine]          [Meditation, Puja, Water]
+                                    \                        |                        /
+                                     \                       |                       /
+          WEST (Varuna)               \                      |                      /            EAST (Surya/Aditya)
+          Air / Saturn                 \                     |                     /             Fire/Light / Sun
+          6 PM - 9 PM                   +------------- BRAHMASTHANA -------------+              6 AM - 9 AM
+          [Dining, Study]               |               Space / Ether            |              [Main Entrance, Bath]
+                                       /               Open Courtyard            \
+                                      /                      |                    \
+                                     /                       |                     \
+                     SOUTH-WEST (Nairutya/Pitri)    SOUTH (Yama)                  SOUTH-EAST (Agneya/Agni)
+                     Earth / Rahu                   Earth / Mars                  Fire / Venus
+                     3 PM - 6 PM                    12 Noon - 3 PM                9 AM - 12 Noon
+                     [Master Bed, Heavy Storage]    [Bedrooms, Armoury]           [Kitchen, Heaters, Ghee]
+```
+
+* **North-East (*Ishana*) — Water Zone**:
+  * **Attributes**: Governed by Shiva (*Ishana*) and Planet Jupiter (*Guru*); represents absolute purity, spirituality, and the head of the *Vastu Purusha*.
+  * **Diurnal Time Slice**: 3:00 AM – 6:00 AM (*Brahma Muhurta*).
+  * **Ideal Functions**: Prayer/puja room, meditation, underground water storage/wells, open unencumbered space.
+  * **Defects**: Heavy construction, toilets, kitchens, septic tanks, or cut corners (causes spiritual decay, family discord, and loss of male progeny).
+
+* **East (*Surya / Aditya*) — Light/Fire Zone**:
+  * **Attributes**: Governed by Indra (power) and the Sun (*Surya*); rules vitality, royal favor, blood circulation, and soul.
+  * **Diurnal Time Slice**: 6:00 AM – 9:00 AM (Sunrise).
+  * **Ideal Functions**: Main entrance/access, bathrooms (for morning sun exposure), open verandas, multipurpose rooms.
+  * **Defects**: High solid walls or absence of openings blocking beneficial morning solar rays.
+
+* **South-East (*Agneya / Agni*) — Fire Zone**:
+  * **Attributes**: Governed by Agni (sacred fire) and Planet Venus (*Shukra*); rules domestic energy, women's health, conjugal felicity, and cooking.
+  * **Diurnal Time Slice**: 9:00 AM – 12:00 PM.
+  * **Ideal Functions**: Kitchen, electrical switchboards, generators, boilers, storage of ghee/oil.
+  * **Defects**: Underground water tanks, main entrance, or bedrooms (causes fear of fire, general relaxation/loss of stimulus, and female health issues).
+
+* **South (*Yama / Dakshina*) — Earth Zone**:
+  * **Attributes**: Governed by Yama (justice/death) and Planet Mars (*Mangal*); rules strength, stamina, legal justice, and physical stability.
+  * **Diurnal Time Slice**: 12:00 PM – 3:00 PM.
+  * **Ideal Functions**: Bedrooms, heavy storage, high structural mass.
+  * **Defects**: Underground water sources, main entrance, or downward site slope (causes mortality and legal disputes).
+
+* **South-West (*Nairutya / Pitri*) — Earth/Ancestral Zone**:
+  * **Attributes**: Governed by Nirriti/Pitri (ancestors) and Planet Rahu; represents stability, family lineage, and the feet of the *Vastu Purusha*.
+  * **Diurnal Time Slice**: 3:00 PM – 6:00 PM.
+  * **Ideal Functions**: Master bedroom, heavy storage, cash lockers, overhead water tanks, highest roof level.
+  * **Defects**: Underground water tanks, main entrance, open courtyards, toilets, or cut corners (causes severe financial drain, loss of longevity, and servitude).
+
+* **West (*Varuna / Paschima*) — Air/Water Zone**:
+  * **Attributes**: Governed by Varuna (cosmic waters) and Planet Saturn (*Shani*); rules longevity, retentive strength, discipline, and constant wealth.
+  * **Diurnal Time Slice**: 6:00 PM – 9:00 PM (Sunset).
+  * **Ideal Functions**: Dining hall, study rooms, study libraries.
+  * **Defects**: Absence of western structural wings or lower elevation than East (leads to loss of wealth retention and chronic depression).
+
+* **North-West (*Vayavya / Vayu*) — Air Zone**:
+  * **Attributes**: Governed by Vayu (wind) and the Moon (*Chandra*); rules mobility, social relationships, mental peace, and distribution.
+  * **Diurnal Time Slice**: 9:00 PM – 12:00 Midnight.
+  * **Ideal Functions**: Guest bedrooms, granaries, finished goods storage, septic tanks, marriageable daughters' rooms.
+  * **Defects**: Master bedroom (causes mental instability, futile wandering, and inability to settle).
+
+* **North (*Soma / Kubera*) — Water/Wealth Zone**:
+  * **Attributes**: Governed by Kubera (wealth) and Planet Mercury (*Budha*); rules financial influx, trade, communication, and health.
+  * **Diurnal Time Slice**: 12:00 Midnight – 3:00 AM.
+  * **Ideal Functions**: Treasuries, cash safes, medicine storage, open verandas, northern water bodies.
+  * **Defects**: Heavy solid walls, toilets, or garbage dumps (blocks wealth influx and causes financial stagnation).
+
+* **Center (*Brahmasthana*) — Ether/Space Zone**:
+  * **Attributes**: Governed by Brahma (creator); represents the unencumbered cosmic navel/heart (*Mahamarma*).
+  * **Ideal Functions**: Open central courtyard (*Angana*), light-filled atrium, sacred *Tulasi* plant shrine.
+  * **Defects**: Load-bearing pillars, heavy walls, staircases, toilets, or water tanks directly over the intersection of main diagonal lines (*Vamsha/Sira*) (causes destruction of the household and instant physical/financial collapse).
+
+---
+
+### 3. MICRO-ZONING, CONCENTRIC GRIDS (*PADA VINYASA*) & DEITY MAPS
+
+To refine functional placement, the *Mandala* is structured concentrically from the center outward into four distinct energy belts (*Veethis/Padams*):
+
+1. ***Brahmapadam*** (Central Core — 9 squares in 81-grid): Sacred Ether zone; must remain open to the sky as a central courtyard (*Angana*).
+2. ***Daivikapadam*** (Divine Inner Ring — 16 squares): High-energy zone surrounding Brahma; ideal for family gathering spaces, altars, and quiet verandas.
+3. ***Manushyapadam*** (Human Ring — 24 squares): The primary structural ring; ideal for main living rooms, bedrooms, kitchens, and daily human activities.
+4. ***Paishachapadam*** (Peripheral Ring — 32 squares): Outer boundary zone; ideal for verandas, setbacks, storage, boundary walls, and external services.
+
+```
++-----------------------------------------------------------------------+
+|                       PAISHACHAPADAM (Outer Ring)                     |
+|   +---------------------------------------------------------------+   |
+|   |                   MANUSHYAPADAM (Human Ring)                  |   |
+|   |   +-------------------------------------------------------+   |   |
+|   |   |               DAIVIKAPADAM (Divine Ring)              |   |   |
+|   |   |   +-----------------------------------------------+   |   |   |
+|   |   |   |               BRAHMAPADAM (Core)              |   |   |   |
+|   |   |   |            Brahma / Central Courtyard         |   |   |   |
+|   |   |   |                                               |   |   |   |
+|   |   |   +-----------------------------------------------+   |   |   |
+|   |   |                                                       |   |   |
+|   |   +-------------------------------------------------------+   |   |
+|   |                                                               |   |
+|   +---------------------------------------------------------------+   |
+|                                                                       |
++-----------------------------------------------------------------------+
+```
+
+#### The 32 Peripheral Deities & Auspicious Entrance Doors
+The outermost boundary contains 32 presiding deities. Specific deities govern the entry points (*Dwara*); placing main entrance doors over beneficial deity plots guarantees prosperity, while malefic plots cause severe afflictions:
+
+* **Eastern Wall**: *Shikhin* (Fire danger) | *Parjanya* (Excess female births) | **Jayanta** (Immense wealth) ★ | **Mahendra** (Royal/Govt favor) ★ | *Surya* (Extreme wrath) | *Satya* (Falsehood) | *Bhrisha* (Cruelty) | *Antariksha* (Theft).
+* **Southern Wall**: *Agni* (Child trouble) | *Pushan* (Slavery) | *Vitatha* (Mean life) | **Brihakshata** (Increase of prosperity & progeny) ★ | *Yama* (Fierceness) | *Gandharva* (Ingratitude) | *Bhringaraja* (Poverty) | *Mriga* (Loss of power).
+* **Western Wall**: *Pitri* (Trouble to sons) | *Douvarika* (Increase of enemies) | *Sugriva* (Loss of wealth) | **Pushpadanta** (Abundant prosperity) ★ | **Varuna** (Increase of wealth) ★ | *Asura* (Danger from authority) | *Shosha* (Loss of health) | *Roga* (Ill health).
+* **Northern Wall**: *Roga* (Imprisonment) | *Naga* (Enmity) | **Mukhya** (Influx of wealth) ★ | **Soma** (Children & vast wealth) ★ | *Bhallata* (Wealth) | *Aditi* (Wife's flaws) | *Diti* (Poverty) | *Isha* (Misfortune).
+
+---
+
+### 4. SITE SELECTION & EMPIRICAL SOIL DIAGNOSTICS
+
+Before construction, classical Vastu requires rigorous site evaluation using the five senses and physical diagnostics:
+
+#### Site Classification by *Varna* Attributes
+Sites are categorized into four classes based on shape, soil color, odor, taste, and natural declivity:
+
+| Varna Class | Plot Shape | Soil Color | Odor / Flora | Taste | Favorable Slope | Attributed Result |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Brahmin** | Square (\\(1:1\\)) | White | Ghee / Udumbara trees | Sweet | Downward to **North** | Spiritual wisdom, peace, fortune |
+| **Kshatriya** | Rectangle (\\(1:1\frac{1}{8}\\)) | Red / Blood | Blood / Ashvattha trees | Bitter / Astringent | Downward to **East** | Power, success, administrative strength |
+| **Vaishya** | Rectangle (\\(1:1\frac{1}{6}\\)) | Yellow | Sesame / Plaksha trees | Sour | Downward to **East/South** | Commercial prosperity & wealth |
+| **Shudra** | Rectangle (\\(1:1\frac{1}{4}\\)) | Black | Fish / Nyagrodha trees | Pungent | Downward to **West** | Abundant grain, labor yields |
+
+#### Empirical Soil Tests
+1. **Compactness Test**: A pit measuring 1 *Hasta* (\\(1\times1\times1\\) cubit) is dug in the center of the site. The excavated earth is thrown back into the pit.
+   * *Inferior*: Soil level is below the rim (porous/loose earth).
+   * *Average*: Soil level fills the pit exactly to the rim.
+   * *Superior*: Soil overflows the pit (dense, compact earth capable of bearing structural loads).
+2. **Porosity Test**: The same pit is filled with water at nightfall and examined at dawn.
+   * *Inferior*: Water is completely absorbed.
+   * *Superior*: Water level remains stable (impermeable clay strata). Clockwise rotation of water indicates supreme bliss.
+3. **Oxygenation Test**: An unbaked earthen lamp with four wicks (oriented North, East, South, West) soaked in ghee is lit inside the pit.
+   * The wick that burns longest indicates the dominant *Varna* suitabilty; non-lighting indicates anaerobic, unsuitable soil.
+4. **Fertility Germination Test**: Seeds (mustard, sesame, barley, wheat) are sown in the pit.
+   * *Superior*: Seeds sprout within 3 days.
+   * *Inferior*: Seeds take 7 days or fail to sprout.
+5. ***Shalya Shodhana*** (Removal of Impurities): Digging the site to clear subsurface "bones, wood, charcoal, and ant hills" before laying foundation bricks (*Prathemestaka*).
+
+---
+
+### 5. REMEDIAL PRINCIPLES & NON-DEMOLITION INTERVENTIONS (*CHIKITSA VAASTU*)
+
+Both Vibhuti Chakrabarti and Sashikala Ananth strongly criticize modern "Vastu consultants" who exploit homeowners through fear-based predictions and drastic demolition. Classical Vastu emphasizes **Chikitsa Vaastu**—the therapeutic correction and energetic healing of existing spaces without structural demolition.
+
+#### 1. Color Therapy (*Panchamahabhuta* Rebalancing)
+Zones with defective functional layouts can be rebalanced by introducing elemental colors via wall paints, floor coverings, or curtains:
+* **North-East / North (Water)**: Pure **White**, **Blue**, or Light Yellow tones.
+* **East / South-East (Fire)**: **Red**, **Coral**, or Pink tones to energize Agni.
+* **South / South-West (Earth)**: **Yellow** or **Golden-Brown** tones to ground energy.
+* **West / North-West (Air)**: **Grey**, **White**, or Metallic Silver tones.
+
+#### 2. Elemental Neutralization & Material Realignment
+* **Metallic Strips / Wire Grounding**: For misplaced toilets or entrances, copper (Fire/East), brass (Earth/South-West), or steel strips are embedded in the floor boundary to block negative energy currents.
+* **Neutralizing Steel Reinforcement**: In modern reinforced concrete (RCC) structures, steel cages act as "Faraday cages" that distort natural geomagnetic fields; proper electrical grounding/earthing of the steel structural grid neutralizes ionization stress.
+* **Material Swaps**: Replacing high-negative-energy synthetic cladding or polished dark granite (associated with Saturn/depression) with lime plaster, natural sandstone, or marble set in lime mortar.
+
+#### 3. Air Cleansing & Herbal Fumigation (*Sambrani*)
+To clear stagnant or negative energies (*Paisaacha*) without altering walls, classical texts (*Mayamata* Ch. 28) prescribe periodic herbal fumigation using resin (*Sambrani*) mixed with:
+* *Tulasi* (Holy Basil), *Guggulu* (Resin), *Neem* leaves, *Sarja*, *Mustard* (*Sarshapa*), *Vacha*, and *Sandalwood*.
+* This eliminates micro-organisms, repels pests, clears airborne pollutants, and restores positive elemental vibrations.
+
+#### 4. Spatial Realignment & Mirror Counterweights
+* **Mirror Extension**: Placing mirrors on North or East walls to visually "extend" cut corners or missing zones.
+* **Structural Weighting**: Placing heavy furniture, rock gardens, or storage units in the South-West corner to artificially raise the energy mass and ground the *Pitri* zone.
+* **Covering Overhead Beams**: False ceilings or wooden casings installed under exposed load-bearing concrete beams to prevent "beam pressure" (*Vedha*) on occupants seated below.
+
+---
+
+Would you like to generate a structured implementation matrix, a diagnostic checklist for house audits, or specific architectural floor plans based on these principles?
 """
 
 SYSTEM_PROMPT = f"""You are a Vastu Shastra consultant AI operating strictly on the knowledge \
